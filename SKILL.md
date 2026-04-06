@@ -1,6 +1,7 @@
 ---
 name: markdown-generator
-description: Use this skill whenever the user asks to generate, convert, or format any input (like free text, URLs, images, or files) into markdown files (.md). Also triggers if the user asks for summaries saved as markdown, extracting action items to markdown, or formatting notes for repositories (like Github READMEs). This skill enforces a structured flow: it interviews the user to determine the summary type (or identical conversion), the number of output files, and the output directory. It strictly requires showing a preview of the file structure and topic outlines BEFORE actually generating any markdown files.
+description: >
+  Use this skill whenever the user asks to generate, convert, or format any input (like free text, URLs, images, or files) into markdown files (.md). Also triggers if the user asks for summaries saved as markdown, extracting action items to markdown, or formatting notes for repositories (like Github READMEs). This skill enforces a structured flow: it interviews the user to determine the summary type (or identical conversion), the number of output files, and the output directory. It strictly requires showing a preview of the file structure and topic outlines BEFORE actually generating any markdown files.
 ---
 
 # Markdown Generator Skill
