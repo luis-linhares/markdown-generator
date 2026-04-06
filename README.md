@@ -8,6 +8,7 @@ This skill intercepts any user request to generate or format content into Markdo
 
 ### Key Features:
 - **Multiple Output Formats:** Choose between:
+
   0. **Cópia Idêntica:** Exact same content, formatted strictly to Markdown.
   1. **Resumo Executivo (Executive Summary):** High-level concepts.
   2. **Pontos-Chave (Bullet Points):** Direct list of crucial numbers, facts, or takeaways.
@@ -19,11 +20,15 @@ This skill intercepts any user request to generate or format content into Markdo
 
 ## How to Install
 
-If you are using Anthropic's Claude Code or an agent environment that connects to `skills.sh`, you can just download or clone this repository into your local `.agents/skills/` directory.
+If you are using **Claude Code**, you can install this skill directly by cloning the repository into your project's local `.claude/skills/` directory. 
+
+Run the following command in the root folder of your project:
 
 ```bash
-git clone https://github.com/luis-linhares/markdown-generator.git .agents/skills/markdown-generator/
+git clone https://github.com/luis-linhares/markdown-generator.git .claude/skills/markdown-generator/
 ```
+
+*(Note: If you are using an alternative agent environment, simply adjust the path to your respective skills folder, e.g., `.agents/skills/markdown-generator/`)*
 
 ## How to Trigger
 
